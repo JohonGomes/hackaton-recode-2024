@@ -11,6 +11,8 @@
     <meta name="description" content="">
     <!-- Define a escala inicial da página e torna a página responsiva -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Link para o arquivo de estilos CSS -->
     <link rel="stylesheet" href="cadastro_doadores.css">
 </head>
@@ -24,14 +26,12 @@
             <li><a href="#">Quem Somos</a></li>
             <!-- Link para a página de cadastro de doadores -->
             <li><a href="cadastro_doadores.html">Cadastro de Doadores</a></li>
-            <!-- Link para a seção "Onde Doar?" -->
-            <li><a href="#">Onde Doar?</a></li>
-            <!-- Link para a seção "O Que Doar?" -->
-            <li><a href="#">O Que Doar?</a></li>
+            <!-- Link para a seção "Pontos de Coleta" -->
+            <li><a href="#">Pontos de Coleta</a></li>
             <!-- Link para a seção "Pontos de Distribuição" -->
             <li><a href="#">Pontos de Distribuição</a></li>
             <!-- Link para a seção de contatos -->
-            <li><a href="#">Contatos</a></li>
+            <li><a href="contatos.html">Contatos</a></li>
         </ul>
     </nav>
     <main>
@@ -62,11 +62,17 @@
         <!-- Conteúdo do rodapé -->
         <div class="footer-content">
             <!-- Links para redes sociais -->
-            <p>Siga-nos:
-                <a href="https://facebook.com" target="_blank" aria-label="Facebook">Facebook</a> |
-                <a href="https://twitter.com" target="_blank" aria-label="Twitter">Twitter</a> |
-                <a href="https://instagram.com" target="_blank" aria-label="Instagram">Instagram</a>
-            </p>
+            <p>Siga-nos: 
+                <a href="https://www.facebook.com/rederecode/" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a> | 
+                <a href="https://twitter.com/rederecode" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a> | 
+                <a href="https://www.instagram.com/rederecode/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </p>            
             <!-- Direitos autorais -->
             <p>&copy; 2024 Hackathon Recode Pro AI - Todos os direitos reservados.</p>
         </div>
@@ -82,7 +88,7 @@
             event.preventDefault(); // Evita o comportamento padrão de recarregar a página
 
             // Exibe uma mensagem de confirmação ao usuário
-            alert('Cadastro realizado com sucesso');
+            alert('Cadastro Realizado com Sucesso');
             
             // Opcional: Resetar o formulário após o envio
             form.reset();

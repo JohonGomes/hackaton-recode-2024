@@ -1,0 +1,123 @@
+/* Padrões Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    border: 1px solid #8be08b5b;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    font-size: 1em;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #8be08b;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+main {
+    padding: 80px 20px;
+    flex: 1;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 60px; 
+}
+
+#contatos h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.styled {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.styled p {
+    margin: 10px 0;
+}
+
+.styled strong {
+    color: #333;
+    display: block;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #05eb61;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    text-decoration: underline;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+    }
+}
+
+
