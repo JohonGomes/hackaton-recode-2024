@@ -1,0 +1,55 @@
+.innerblock {
+    background-color: #07eb62;
+    color: #201e42; 
+    width: 200px;
+    height: 120px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex; /* Adicionado */
+    flex-direction: column; /* Adicionado */
+    justify-content: space-between; /* Adicionado */
+
+}
+
+.textop {
+    font-size: 15px;
+    margin: 0;
+}
+
+.blocktext {
+    font-size: 8px;
+    align-self: flex-start;
+    margin: 0;
+
+    
+    
+    
+    
+
+}
+
+.blocoprincipal {
+    display: flex;
+    gap: 5px;
+    padding: 25px;
+    justify-content: center;
+}
+
+.titulodebloco {
+    text-align: center;
+    margin: 0%;
+    font-size: 15px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #201e42;
+}
+
+
+
+
