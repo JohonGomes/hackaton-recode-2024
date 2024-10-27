@@ -1,0 +1,27 @@
+.doacao-pix{
+    display: flex;
+    justify-content: center;
+}
+
+.dados-pix{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 80px;
+    margin: 20px 0 0 0;
+    gap: 10px;
+    background-color: #7049a61c;
+
+    h2{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    p{
+        font-size: 20px;
+        text-align: center;
+        color: #7049a6;
+    }
+
+}

@@ -29,6 +29,7 @@ main {
   margin-top: 56px;
   display: flex;
   flex-direction: column;
+  text-align: center;
 
   flex-direction: column;
 
@@ -75,9 +76,19 @@ main {
   justify-content: center;
   margin-top: 32px;
   gap: 24px;
+  
+  button{
+    background-color: #7049a6;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #f1f1f1;
+  }
 
   a {
-    border: 1px solid #7049a6;
     padding: 10px 20px;
     border-radius: 6px;
     white-space: nowrap;

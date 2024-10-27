@@ -11,8 +11,8 @@ h1, h2 {
 }
 
 #contatos {
-  margin: 0 auto; /* Centraliza o container de contatos */
-  text-align: center; /* Centraliza o título */
+  margin: 0 auto;
+  text-align: center;
 }
 
 #contatos h1 {
@@ -23,9 +23,9 @@ h1, h2 {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Duas colunas */
-  gap: 20px; /* Espaçamento entre as caixas */
-  justify-items: center; /* Centraliza as caixas */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
 }
 
 .styled {
@@ -33,8 +33,8 @@ h1, h2 {
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Ocupa toda a célula do grid */
-  text-align: left; /* Alinha o texto à esquerda */
+  width: 100%;
+  text-align: left;
 }
 
 .styled p {
