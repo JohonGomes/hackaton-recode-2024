@@ -1,50 +1,81 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Ajude o Rio Grande do Sul</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-    <!--Menu Inicial-->
-    <nav>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Juntos pelo Rio Grande do Sul</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="homeStyle.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/images/logo-azul-19.png" alt="" />
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Quem Somos</a></li>
-            <li><a href="cadastro_doadores.html">Cadastro de Doadores</a></li>
-            <li><a href="#">Pontos de Coleta</a></li>
-            <li><a href="#">Pontos de Distribuição</a></li>
-            <li><a href="contatos.html">Contatos</a></li>    
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Quem Somos</a></li>
+          <li><a href="#">Pontos de Distribuição</a></li>
+          <li><a href="#">Contatos</a></li>
+          <li><button href="#">Cadastro</button></li>
         </ul>
-    </nav>
+      </nav>
+    </header>
+
     <main>
+      <section class="bem-vindo">
         <div>
-            <div class="banner">
-                <img class="banner-home" src="./imgs/banner-home.svg" alt="banner-home">
-            </div>
+          <h1>Bem-vindo(a) </br> ao Junto por </br>Rio Grande do Sul!</h1>
+          <p>
+            Nossa missão é ajudar as famílias afetadas pelas enchentes no Rio
+            Grande do Sul, garantindo que alimentos e itens essenciais cheguem a
+            quem mais precisa. Juntos, podemos transformar solidariedade em
+            ação.
+          </p>
+
+          <div class="button-sugest">
+            <a href="">Onde Doar?</a>
+            <a href="">O que Doar?</a>
+          </div>
         </div>
+        <img src="/images/img-bem-vindos.png" alt="" />
+      </section>
+
+      <section class="call-to-action">
+        <h2>Doe agora e faça a diferença! Saiba como você pode ajudar e onde encontrar pontos de doação.</h2>
+      </section>
     </main>
+
     <footer>
-        <div class="footer-content">
-            
-            <p>Siga-nos: 
-                <a href="https://www.facebook.com/rederecode/" target="_blank" aria-label="Facebook">
-                    <i class="fab fa-facebook-f"></i> Facebook
-                </a> | 
-                <a href="https://twitter.com/rederecode" target="_blank" aria-label="Twitter">
-                    <i class="fab fa-twitter"></i> Twitter
-                </a> | 
-                <a href="https://www.instagram.com/rederecode/" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i> Instagram
-                </a>
-            </p>            
-                <p>&copy; 2024 Hackathon Recode Pro AI - Todos os direitos reservados.</p>
-            </p>
-        </div>
+     <div>
+      <span>Siga-nos</span>
+       <ul>
+        <li>
+          <a href="">
+            <i class="ph-bold ph-facebook-logo"></i>
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="ph-bold ph-instagram-logo"></i>
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="ph-bold ph-x-logo"></i>
+            Twitter
+          </a>
+        </li>
+      </ul>
+     </div>
+
+      <p>© 2021 Juntos pelo Rio Grande do Sul(Equipe 19). Todos os direitos reservados.</p>
     </footer>
-    </body>
+  </body>
 </html>
