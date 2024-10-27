@@ -1,6 +1,6 @@
 .innerblock {
-    background-color: #07eb62;
-    color: #201e42; 
+    background-color: #5f2ee7;
+    color: #d9d9e0; 
     width: 200px;
     height: 120px;
     border-radius: 5px;
@@ -12,7 +12,7 @@
 }
 
 .textop {
-    font-size: 15px;
+    font-size: 10px;
     margin: 0;
 }
 
@@ -47,9 +47,12 @@ body {
 
 h2 {
     text-align: center;
-    color: #201e42;
+    color: #cecde6;
 }
 
 
-
+h1 {
+    text-align: center;
+    color: #3631cf;
+}
 
