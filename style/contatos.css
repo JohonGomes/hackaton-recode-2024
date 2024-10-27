@@ -5,25 +5,36 @@ main {
   margin-bottom: 100px;
 }
 
-h1,
-h2 {
+h1, h2 {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 30px;
+}
+
+#contatos {
+  margin: 0 auto; /* Centraliza o container de contatos */
+  text-align: center; /* Centraliza o título */
 }
 
 #contatos h1 {
   margin-bottom: 20px;
-  font-size: 2.5em;
-  color: #333;
+  font-size: 2em;
+  color: #26214d;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+  gap: 20px; /* Espaçamento entre as caixas */
+  justify-items: center; /* Centraliza as caixas */
 }
 
 .styled {
-  background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #5f2ee7;
   border-radius: 10px;
   padding: 10px;
-  margin-bottom: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ocupa toda a célula do grid */
+  text-align: left; /* Alinha o texto à esquerda */
 }
 
 .styled p {
@@ -31,7 +42,13 @@ h2 {
 }
 
 .styled strong {
-  color: #333;
-  display: block;
+  color: #5f2ee7;
   font-weight: bold;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  text-decoration-color: #5f2ee7;
 }
