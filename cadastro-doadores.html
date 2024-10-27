@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ajude o Rio Grande do Sul</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="cadastro-doadores.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/images/logo-azul-19.png" alt="" />
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/quem-somos.html">Quem Somos</a></li>
+          <li>
+            <a href="/pontos-de-distribuicao.html">Pontos de Distribuição</a>
+          </li>
+          <li><a href="/contatos.html">Contatos</a></li>
+          <li><button href="/cadastro-doadores.html">Cadastro</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Seção de Cadastro de Doadores -->
+      <section id="cadastro">
+        <!-- Título da seção de cadastro -->
+        <h1>Cadastro de Doadores</h1>
+        <!-- Formulário para cadastro de doadores -->
+        <form id="form-doadores" aria-labelledby="form-doadores">
+          <!-- Campo de entrada para o nome -->
+          <label for="nome-benef">Nome:</label>
+          <input
+            type="text"
+            id="nome-benef"
+            name="nome-benef"
+            required
+            placeholder="Ex: João Silva"
+          />
+          <!-- Campo de entrada para o endereço -->
+          <label for="endereco">Endereço:</label>
+          <input
+            type="text"
+            id="endereco"
+            name="endereco"
+            required
+            placeholder="Ex: Rua das Flores, 123"
+          />
+          <!-- Campo de entrada para o e-mail -->
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Ex: fulano@gmail.com"
+          />
+          <!-- Campo de entrada para o telefone -->
+          <label for="telefone">Telefone para Contato:</label>
+          <input
+            type="tel"
+            id="telefone"
+            name="telefone"
+            required
+            placeholder="Ex: (99) 99999-9999"
+          />
+          <!-- Botão para submeter o formulário -->
+          <button type="submit">Cadastrar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <span>Siga-nos</span>
+        <ul>
+          <li>
+            <a href="">
+              <i class="ph-bold ph-facebook-logo"></i>
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="ph-bold ph-instagram-logo"></i>
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="ph-bold ph-x-logo"></i>
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <p>
+        © 2021 Juntos pelo Rio Grande do Sul(Equipe 19). Todos os direitos
+        reservados.
+      </p>
+    </footer>
+
+    <!-- Adicionando JavaScript para exibir mensagem de confirmação -->
+    <script>
+      // Seleciona o formulário pelo ID
+      const form = document.getElementById('form-doadores')
+
+      // Adiciona um evento ao formulário que será acionado quando o formulário for enviado
+      form.addEventListener('submit', function (event) {
+        event.preventDefault() // Evita o comportamento padrão de recarregar a página
+
+        // Exibe uma mensagem de confirmação ao usuário
+        alert('Cadastro Realizado com Sucesso')
+
+        // Opcional: Resetar o formulário após o envio
+        form.reset()
+      })
+    </script>
+  </body>
+</html>
