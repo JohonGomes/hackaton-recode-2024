@@ -8,24 +8,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/style/reset.css" />
     <link rel="stylesheet" href="/style/header-footer.css" />
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css"
+    />
     <link rel="stylesheet" href="style/cadastro-doadores.css" />
   </head>
   <body>
     <header>
       <nav>
-        <img src="/images/logo-azul-19.png" alt="Logo" />
+        <img src="images/logo-azul-19.png" alt="Logo" />
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="menu-icon">&#9776;</label>
         <ul id="menu">
           <li><a href="/">Home</a></li>
-          <li><a href="/quem-somos.html">Quem Somos</a></li>
-          <li><a href="/pontos-de-distribuicao.html">Pontos de Distribuição</a></li>
+          <li><a href="quem-somos.html">Quem Somos</a></li>
+          <li>
+            <a href="pontos-de-distribuicao.html">Pontos de Distribuição</a>
+          </li>
           <li>
             <a href="pontos-de-coleta.html">Pontos de Coleta</a>
           </li>
-          <li><a href="/contatos.html">Contatos</a></li>
-          <li><a class="link-button" href="/cadastro-doadores.html">Cadastro</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+          <li>
+            <a class="link-button" href="cadastro-doadores.html">Cadastro</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -36,21 +44,51 @@
         <h1>Cadastro</h1>
         <!-- Formulário para cadastro de doadores -->
         <div class="tabs">
-          <button class="tab-button" onclick="showForm('form1')">Doadores</button>
-          <button class="tab-button" onclick="showForm('form2')">Voluntários</button>
-          <button class="tab-button" onclick="showForm('form3')">Donatários</button>
+          <button class="tab-button" onclick="showForm('form1')">
+            Doadores
+          </button>
+          <button class="tab-button" onclick="showForm('form2')">
+            Voluntários
+          </button>
+          <button class="tab-button" onclick="showForm('form3')">
+            Donatários
+          </button>
         </div>
         <!-- Formulário 1 -->
         <div id="form1" class="form-content">
           <form id="form-doadores1" aria-labelledby="form-doadores1">
             <label for="nome1">Nome:</label>
-            <input type="text" id="nome1" name="nome1" required placeholder="Ex: João Silva" />
+            <input
+              type="text"
+              id="nome1"
+              name="nome1"
+              required
+              placeholder="Ex: João Silva"
+            />
             <label for="endereco1">Endereço:</label>
-            <input type="text" id="endereco1" name="endereco1" required placeholder="Ex: Rua das Flores, 123" />
+            <input
+              type="text"
+              id="endereco1"
+              name="endereco1"
+              required
+              placeholder="Ex: Rua das Flores, 123"
+            />
             <label for="email1">E-mail:</label>
-            <input type="email" id="email1" name="email1" required placeholder="Ex: fulano@gmail.com" />
+            <input
+              type="email"
+              id="email1"
+              name="email1"
+              required
+              placeholder="Ex: fulano@gmail.com"
+            />
             <label for="telefone1">Telefone para Contato:</label>
-            <input type="tel" id="telefone1" name="telefone1" required placeholder="Ex: (99) 99999-9999" />
+            <input
+              type="tel"
+              id="telefone1"
+              name="telefone1"
+              required
+              placeholder="Ex: (99) 99999-9999"
+            />
             <button type="submit">Cadastrar</button>
           </form>
         </div>
@@ -58,13 +96,37 @@
         <div id="form2" class="form-content">
           <form id="form-doadores2" aria-labelledby="form-doadores2">
             <label for="nome2">Nome:</label>
-            <input type="text" id="nome2" name="nome2" required placeholder="Ex: Maria Silva" />
+            <input
+              type="text"
+              id="nome2"
+              name="nome2"
+              required
+              placeholder="Ex: Maria Silva"
+            />
             <label for="endereco2">Endereço:</label>
-            <input type="text" id="endereco2" name="endereco2" required placeholder="Ex: Avenida Central, 456" />
+            <input
+              type="text"
+              id="endereco2"
+              name="endereco2"
+              required
+              placeholder="Ex: Avenida Central, 456"
+            />
             <label for="email2">E-mail:</label>
-            <input type="email" id="email2" name="email2" required placeholder="Ex: maria@gmail.com" />
+            <input
+              type="email"
+              id="email2"
+              name="email2"
+              required
+              placeholder="Ex: maria@gmail.com"
+            />
             <label for="telefone2">Telefone para Contato:</label>
-            <input type="tel" id="telefone2" name="telefone2" required placeholder="Ex: (98) 88888-8888" />
+            <input
+              type="tel"
+              id="telefone2"
+              name="telefone2"
+              required
+              placeholder="Ex: (98) 88888-8888"
+            />
             <button type="submit">Cadastrar</button>
           </form>
         </div>
@@ -72,13 +134,37 @@
         <div id="form3" class="form-content">
           <form id="form-doadores3" aria-labelledby="form-doadores3">
             <label for="nome3">Nome:</label>
-            <input type="text" id="nome3" name="nome3" required placeholder="Ex: Pedro Silva" />
+            <input
+              type="text"
+              id="nome3"
+              name="nome3"
+              required
+              placeholder="Ex: Pedro Silva"
+            />
             <label for="endereco3">Endereço:</label>
-            <input type="text" id="endereco3" name="endereco3" required placeholder="Ex: Rua Nova, 789" />
+            <input
+              type="text"
+              id="endereco3"
+              name="endereco3"
+              required
+              placeholder="Ex: Rua Nova, 789"
+            />
             <label for="email3">E-mail:</label>
-            <input type="email" id="email3" name="email3" required placeholder="Ex: pedro@gmail.com" />
+            <input
+              type="email"
+              id="email3"
+              name="email3"
+              required
+              placeholder="Ex: pedro@gmail.com"
+            />
             <label for="telefone3">Telefone para Contato:</label>
-            <input type="tel" id="telefone3" name="telefone3" required placeholder="Ex: (97) 77777-7777" />
+            <input
+              type="tel"
+              id="telefone3"
+              name="telefone3"
+              required
+              placeholder="Ex: (97) 77777-7777"
+            />
             <button type="submit">Cadastrar</button>
           </form>
         </div>
@@ -118,41 +204,39 @@
     <!-- Adicionando JavaScript para exibir mensagem de confirmação e efeitos no formulário -->
     <script>
       function showForm(formId) {
-        var forms = document.getElementsByClassName('form-content');
-        var formToToggle = document.getElementById(formId);
+        var forms = document.getElementsByClassName('form-content')
+        var formToToggle = document.getElementById(formId)
 
         for (var i = 0; i < forms.length; i++) {
-          forms[i].style.maxHeight = '0px';
+          forms[i].style.maxHeight = '0px'
         }
 
         for (var i = 0; i < forms.length; i++) {
           if (forms[i] !== formToToggle) {
-            forms[i].classList.remove('show');
+            forms[i].classList.remove('show')
           }
         }
 
         if (formToToggle.classList.contains('show')) {
-          formToToggle.classList.remove('show');
-          formToToggle.style.maxHeight = '0px';
+          formToToggle.classList.remove('show')
+          formToToggle.style.maxHeight = '0px'
         } else {
-          formToToggle.classList.add('show');
-          formToToggle.style.maxHeight = formToToggle.scrollHeight + 'px';
+          formToToggle.classList.add('show')
+          formToToggle.style.maxHeight = formToToggle.scrollHeight + 'px'
         }
       }
 
       function setupForm(formId) {
-        const form = document.getElementById(formId);
+        const form = document.getElementById(formId)
         form.addEventListener('submit', function (event) {
-          event.preventDefault();
-          alert('Cadastro Realizado com Sucesso');
-          form.reset();
-        });
-      }    
-      setupForm('form-doadores1');
-      setupForm('form-doadores2');
-      setupForm('form-doadores3');
+          event.preventDefault()
+          alert('Cadastro Realizado com Sucesso')
+          form.reset()
+        })
+      }
+      setupForm('form-doadores1')
+      setupForm('form-doadores2')
+      setupForm('form-doadores3')
     </script>
-    
   </body>
 </html>
-
