@@ -1,155 +1,56 @@
-/* Menu Inicial */
-
-/* Define margens e preenchimentos para zero, e ajusta o tamanho das caixas para incluir as bordas e preenchimentos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Define a fonte padrão para Arial e ajusta a estrutura do corpo para ser flexível e ocupar a altura total da janela */
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-/* Define o estilo do nav (barra de navegação), fixando-o no topo e configurando a largura, a cor e o preenchimento */
-nav {
-    background-color: #333;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    z-index: 1000; /* Garante que o nav fique acima de outros elementos */
-}
-
-/* Define o estilo da lista não ordenada no nav, removendo marcadores de lista, ajustando a exibição e justificando o conteúdo ao centro */
-nav ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/* Define margens para os itens da lista dentro do nav */
-nav ul li {
-    margin: 10px;
-}
-
-/* Define o estilo dos links no nav, incluindo cor, borda e preenchimento */
-nav ul li a {
-    text-decoration: none;
-    border: 1px solid #8be08b5b;
-    border-radius: 20px;
-    color: #fff;
-    padding: 10px 20px;
-    display: block;
-}
-
-/* Adiciona um estilo ao link quando o mouse passa sobre ele, mudando o fundo, arredondando as bordas e tornando o texto em negrito */
-nav ul li a:hover {
-    background-color: #8be08b;
-    border-radius: 20px;
-    font-weight: 600;
-}
-
-/* Estilo da main (área principal do conteúdo), adicionando preenchimento e ajustando o espaço flexível para ocupar o espaço disponível */
 main {
-    padding: 80px 20px;
-    flex: 1; /* Para o conteúdo ocupar o espaço entre o header e o footer */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Estilo dos títulos h1 e h2, centralizando o texto, ajustando o tamanho da fonte e adicionando margem superior */
-h1, h2 {
-    text-align: center;
-    font-size: 2em; /* Ajuste o tamanho conforme necessário */
-    margin-top: 60px; /* Mantém a margem superior */
-}
-
-/* Estilo do rodapé */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    margin-top: auto; /* Empurra o rodapé para o final da página */
-}
-
-/* Define a margem dos parágrafos no rodapé */
-.footer-content p {
-    margin: 5px 0;
-}
-
-/* Estilo dos links no rodapé */
-footer a {
-    color: #05eb61;
-    text-decoration: none;
-}
-
-/* Adiciona sublinhado aos links no rodapé quando o mouse passa sobre eles */
-footer a:hover {
-    text-decoration: underline;
+h1,
+h2 {
+  text-align: center;
+  font-size: 2em; /* Ajuste o tamanho conforme necessário */
+  margin-top: 60px; /* Mantém a margem superior */
 }
 
 /* Estilo do Formulário */
 
 /* Estilo geral do formulário, incluindo margens, preenchimentos, bordas e fundo */
 form {
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 100%;
 }
 
 /* Estilo dos rótulos do formulário, incluindo exibição em bloco e margens inferiores */
 form label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 /* Estilo dos campos de entrada de texto, e-mail, telefone e botões do formulário, incluindo largura, preenchimentos, margens e bordas */
-form input[type="text"],
-form input[type="email"],
-form input[type="tel"],
+form input[type='text'],
+form input[type='email'],
+form input[type='tel'],
 form button {
-    width: calc(100% - 22px);
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 /* Estilo dos botões do formulário, incluindo cor de fundo, cor do texto, bordas e cursor */
 form button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
 /* Adiciona um estilo aos botões do formulário quando o mouse passa sobre eles, mudando a cor de fundo */
 form button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
-
-/* Responsividade para dispositivos móveis */
-
-/* Media query para ajustar o estilo quando a largura da tela é menor que 768px */
-@media (max-width: 768px) {
-    /* Ajusta a direção dos itens da lista no nav para coluna em telas menores */
-    nav ul {
-        flex-direction: column;
-    }
-
-    /* Ajusta a largura das caixas de conteúdo para 100% em telas menores */
-    .box {
-        width: 100%;
-    }
-}
-
