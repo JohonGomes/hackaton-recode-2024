@@ -15,11 +15,21 @@ main {
     padding-left: 0;
     padding-right: 0;
   }
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 100px;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .bem-vindo {
   margin-top: 56px;
   display: flex;
+  flex-direction: column;
+
   flex-direction: column;
 
   gap: 32px;
@@ -34,9 +44,20 @@ main {
   }
   img {
     width: 100%;
+    width: 100%;
   }
 
   font-size: 18px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      max-width: 50%;
+    }
+  }
 
   @media screen and (min-width: 768px) {
     flex-direction: row;

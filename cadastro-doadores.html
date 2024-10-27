@@ -35,50 +35,22 @@
       </nav>
     </header>
     <main>
-      <!-- Seção de Cadastro de Doadores -->
-      <section id="cadastro">
-        <!-- Título da seção de cadastro -->
-        <h1>Cadastro de Doadores</h1>
-        <!-- Formulário para cadastro de doadores -->
-        <form id="form-doadores" aria-labelledby="form-doadores">
-          <!-- Campo de entrada para o nome -->
-          <label for="nome-benef">Nome:</label>
-          <input
-            type="text"
-            id="nome-benef"
-            name="nome-benef"
-            required
-            placeholder="Ex: João Silva"
-          />
-          <!-- Campo de entrada para o endereço -->
-          <label for="endereco">Endereço:</label>
-          <input
-            type="text"
-            id="endereco"
-            name="endereco"
-            required
-            placeholder="Ex: Rua das Flores, 123"
-          />
-          <!-- Campo de entrada para o e-mail -->
-          <label for="email">E-mail:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            required
-            placeholder="Ex: fulano@gmail.com"
-          />
-          <!-- Campo de entrada para o telefone -->
-          <label for="telefone">Telefone para Contato:</label>
-          <input
-            type="tel"
-            id="telefone"
-            name="telefone"
-            required
-            placeholder="Ex: (99) 99999-9999"
-          />
-          <!-- Botão para submeter o formulário -->
-          <button type="submit">Cadastrar</button>
+      </div>
+      <section class="cadastro-doadores">
+        <form class="form-doadores" id="form-doadores">
+          <p>Cadastro de Doadores</p>
+          
+          <label for="">Nome</label>
+          <input type="text" placeholder="Digite seu nome completo">
+          <label for="">CPF</label>
+          <input type="number" placeholder="000.000.000-00">
+          <label for="">Telefone</label>
+          <input type="telephone" placeholder="(00) 00000-0000">
+          <label for="">E-mail</label>
+          <input type="e-mail" placeholder="nome@email.com">
+          <label for="">Endereço</label>
+          <input type="text" placeholder="Rua Vinicius Barros Nº 156 - Bairro : Centro">
+          <button class="btn-cadastrar">Cadastrar</button>
         </form>
       </section>
     </main>
@@ -129,5 +101,6 @@
         form.reset()
       })
     </script>
+    
   </body>
 </html>
