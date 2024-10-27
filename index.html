@@ -7,23 +7,27 @@
     <link rel="stylesheet" href="/style/reset.css" />
     <link rel="stylesheet" href="/style/header-footer.css" />
     <link
-    rel="stylesheet"
-    type="text/css"
-    href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css"
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css"
     />
     <link rel="stylesheet" href="/style/home-style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <img src="/images/logo-azul-19.png" alt="" />
-        <ul>
+        <img src="/images/logo-azul-19.png" alt="Logo" />
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul id="menu">
           <li><a href="/">Home</a></li>
           <li><a href="/quem-somos.html">Quem Somos</a></li>
-          <li><a href="/pontos-de-distribuicao.html">Pontos de Distribuição</a></li>
+          <li>
+            <a href="/pontos-de-distribuicao.html">Pontos de Distribuição</a>
+          </li>
           <li><a href="/contatos.html">Contatos</a></li>
           <li>
-            <a class="link-buutton" href="/cadastro-doadores.html">Cadastro</a>
+            <a class="link-button" href="/cadastro-doadores.html">Cadastro</a>
           </li>
         </ul>
       </nav>
@@ -32,7 +36,10 @@
     <main>
       <section class="bem-vindo">
         <div>
-          <h1>Bem-vindo(a) </br> ao Juntos pelo </br>Rio Grande do Sul!</h1>
+          <h1>
+            Bem-vindo(a) <br />
+            ao Juntos pelo <br />Rio Grande do Sul!
+          </h1>
           <p>
             Nossa missão é ajudar as famílias afetadas pelas enchentes no Rio
             Grande do Sul, garantindo que alimentos e itens essenciais cheguem a
@@ -48,37 +55,43 @@
         <img src="/images/img-bem-vindos.png" alt="" />
       </section>
 
-      <section class="call-to-action">
-        <h2>Doe agora e faça a diferença! Saiba como você pode ajudar e onde encontrar pontos de doação.</h2>
-      </section>
+      <!-- <section class="call-to-action">
+        <h2>
+          Doe agora e faça a diferença! Saiba como você pode ajudar e onde
+          encontrar pontos de doação.
+        </h2>
+      </section> -->
     </main>
 
     <footer>
-     <div>
-      <span>Siga-nos</span>
-       <ul>
-        <li>
-          <a href="">
-            <i class="ph-bold ph-facebook-logo"></i>
-            Facebook
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="ph-bold ph-instagram-logo"></i>
-            Instagram
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="ph-bold ph-x-logo"></i>
-            Twitter
-          </a>
-        </li>
-      </ul>
-     </div>
+      <div>
+        <span>Siga-nos</span>
+        <ul>
+          <li>
+            <a href="">
+              <i class="ph-bold ph-facebook-logo"></i>
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="ph-bold ph-instagram-logo"></i>
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="ph-bold ph-x-logo"></i>
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
 
-      <p>© 2021 Juntos pelo Rio Grande do Sul(Equipe 19). Todos os direitos reservados.</p>
+      <p>
+        © 2021 Juntos pelo Rio Grande do Sul(Equipe 19). Todos os direitos
+        reservados.
+      </p>
     </footer>
   </body>
 </html>
