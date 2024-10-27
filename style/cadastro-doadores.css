@@ -5,11 +5,11 @@ main {
 }
 
 /* Estilo dos títulos h1 e h2, centralizando o texto, ajustando o tamanho da fonte e adicionando margem superior */
-h1,
-h2 {
+h1, h2 {
   text-align: center;
   font-size: 2em; /* Ajuste o tamanho conforme necessário */
   margin-top: 60px; /* Mantém a margem superior */
+  margin-bottom: 40px;
 }
 
 /* Estilo do Formulário */
@@ -54,4 +54,39 @@ form button {
 /* Adiciona um estilo aos botões do formulário quando o mouse passa sobre eles, mudando a cor de fundo */
 form button:hover {
   background-color: #45a049;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  font-size: 18px;
+  padding: 15px 30px;
+  margin: 0 15px;
+  cursor: pointer;
+  background-color: #7049a6;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.tab-button:hover {
+  background-color: #5f2ee7;
+}
+
+.form-content {
+  display: none;
+  max-width: 600px;
+  margin: 0 auto;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+}
+
+.form-content.show {
+  display: block;
+  max-height: 1000px;
 }
