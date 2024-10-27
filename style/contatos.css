@@ -5,21 +5,19 @@ main {
   margin-bottom: 100px;
 }
 
-h1,
-h2 {
+h1, h2 {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 #contatos h1 {
   margin-bottom: 20px;
   font-size: 2.5em;
-  color: #333;
+  color: #26214d;
 }
 
-.styled {
-  background-color: #fff;
-  border: 1px solid #ccc;
+.styled { 
+  border: 1px solid #5f2ee7;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 10px;
@@ -27,11 +25,18 @@ h2 {
 }
 
 .styled p {
-  margin: 10px 0;
+  margin: 10px 0;  
 }
 
 .styled strong {
-  color: #333;
+  color: #5f2ee7;
   display: block;
   font-weight: bold;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  text-decoration-color: #5f2ee7;
 }
