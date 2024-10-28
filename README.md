@@ -5,10 +5,6 @@
 
 ![Imagem do Projeto](https://i.postimg.cc/G3MBP1Rt/Captura-de-tela-2024-10-27-215029.png)
 
-<div align="center">
-  <img src="https://i.postimg.cc/G3MBP1Rt/Captura-de-tela-2024-10-27-215029.png" alt="Texto alternativo" width="400">
-</div>
-
 ## Sobre o Projeto
 Plataforma web desenvolvida durante o Hackathon Recode PRO AI para otimizar a distribuição de doações e auxílio durante enchentes no Rio Grande do Sul. O projeto visa conectar doadores, voluntários e beneficiários de forma eficiente.
 
