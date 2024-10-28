@@ -1,7 +1,7 @@
 # Plataforma de Auxílio em Enchentes - RS
 
-[Acesse o Site do Projeto][referência]
-[referência]: https://hackaton-recode-2024.vercel.app/index.html
+[Acesse o Site do Projeto]
+https://hackaton-recode-2024.vercel.app/index.html
 
 ![Imagem do Projeto](https://i.postimg.cc/G3MBP1Rt/Captura-de-tela-2024-10-27-215029.png)
 
