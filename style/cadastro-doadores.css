@@ -5,7 +5,8 @@ main {
 }
 
 /* Estilo dos títulos h1 e h2, centralizando o texto, ajustando o tamanho da fonte e adicionando margem superior */
-h1, h2 {
+h1,
+h2 {
   text-align: center;
   font-size: 2em; /* Ajuste o tamanho conforme necessário */
   margin-top: 60px; /* Mantém a margem superior */
@@ -52,13 +53,23 @@ form button {
 }
 
 .btn-cadastrar:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 .tabs {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  gap: 24px;
   margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .tab-button {
@@ -83,6 +94,13 @@ form button {
   margin: 0 auto;
   transition: max-height 0.3s ease-out;
   overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .form-content.show {

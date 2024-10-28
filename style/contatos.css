@@ -5,7 +5,8 @@ main {
   margin-bottom: 100px;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
   margin-top: 30px;
 }
@@ -23,9 +24,15 @@ h1, h2 {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
   justify-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .styled {
