@@ -8,6 +8,9 @@ https://hackaton-recode-2024.vercel.app/index.html
 ## Sobre o Projeto
 Plataforma web desenvolvida durante o Hackathon Recode PRO AI para otimizar a distribuição de doações e auxílio durante enchentes no Rio Grande do Sul. O projeto visa conectar doadores, voluntários e beneficiários de forma eficiente.
 
+[Documento do Projeto]
+https://docs.google.com/document/d/1NzF3O1b6S4JEQuSAP3n621ZYYVSBSqxQaJ9wKWdobWU/edit?tab=t.0
+
 ## Problema
 - Distribuição ineficiente de ajuda humanitária
 - Falta de coordenação entre voluntários e organizações
